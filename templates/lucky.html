@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lucky</title>
+    </head>
+    <body>
+        <h1>Hello! This is the lucky page</h1>
+        <p>Lucky number: {{lucky_num}}</p>
+        <p>The message for today is: {{msg}}</p>
+
+        {% if lucky_num == 3%}
+        <h2>That's my lucky number!</h2>
+        {% else %}
+        <h2>I hate that number so much</h2>
+        {% endif %}
+    </body>
+</html>
